@@ -1,1 +1,0 @@
-Simple Driver just for Enabling Global Interrupt , Driver has 2 API's only , one for Enabling GIE , and other for Disabling GIE
