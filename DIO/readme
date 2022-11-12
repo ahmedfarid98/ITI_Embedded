@@ -1,1 +1,15 @@
 
+Using Port Driver >> Port_config.h >> You can configure Microcontroller Pins to be Input or Output by writing 0 in front of it for Input and 1 for output
+
+Also in the Same file ,, you can configure input pins to activate Pull up by writing 1 in front of Input Pin initial Value
+
+ex_1 : Set Pin 2 at Port C to be input and Activate Pull up to it : 
+from (Port_Config.h) File : apply following Configuration
+#define PORTC_PIN2_DIR              0
+#define PORTC_PIN2_INITIAL_VAL      1
+
+ex_2 : Set Pin 4 at Port D to be Output:
+from (Port_Config.h) File : apply following Configuration
+#define PORTD_PIN4_DIR              1
+
+
